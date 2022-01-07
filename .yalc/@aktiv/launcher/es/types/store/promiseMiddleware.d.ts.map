@@ -1,0 +1,1 @@
+{"version":3,"file":"promiseMiddleware.d.ts","sourceRoot":"","sources":["../../src/store/promiseMiddleware.ts"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,QAAQ,IAAI,aAAa,EAAE,SAAS,EAAE,aAAa,EAAE,MAAM,OAAO,CAAC;AAEjF,MAAM,CAAC,OAAO,UAAU,iBAAiB,CAAC,EAAE,QAAQ,EAAE,EAAE,aAAa,UACnD,aAAa,cACd,SAAS,KAAG,OAAO,CAanC"}

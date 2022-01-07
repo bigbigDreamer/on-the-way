@@ -1,0 +1,48 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  @keyframes autoscroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    50% {
+      transform: translateX(-500px);
+    }
+
+    100% {
+      transform: translateX(-1000px);
+    }
+
+  }
+
+  .carousel-wrapper {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    .carousel-content {
+      position: absolute;
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      //animation-name: autoscroll;
+      //animation-duration: 2400ms;
+      ////animation-play-state: initial;
+      //animation-timing-function:  ease-in-out;
+      //animation-iteration-count: infinite;
+
+      .carousel-item {
+        width: 500px;
+        flex-shrink: 0;
+        height: 300px;
+      }
+    }
+  }
+
+}
